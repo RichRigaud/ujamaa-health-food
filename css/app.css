@@ -2,13 +2,16 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
 }
 .container{
-    width: 80%;
+    width: 90%;
     max-width: 1100px;
     margin: 0 auto;
     /* border:2px solid yellowgreen; */
@@ -22,10 +25,13 @@ body {
 
 .logo{
     height: 5.5rem;   
-    margin-right: 2rem;
+    margin-right: 1.5rem;
 }
 
 header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
     background: #136c72;
     padding: .5em 0;
 }
@@ -63,10 +69,28 @@ header {
     align-items: center;
     border: 2px solid #73AD21;
     padding: 20px;
-    width: 325px;
+    width: 500px;
     height: 45px;
 }
 .search-input{
-    border: none;   
-    margin-right: 5rem;
+    border: none; 
+    margin-right: 16rem;  
+    
+}
+.search-icon{
+ 
+    color:aqua;
+}
+
+.cart-icon{
+    color:aqua; 
+    margin-right: 12px;
+}
+
+.material-symbols-outlined {
+   font-variation-settings:
+  'FILL' white,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
