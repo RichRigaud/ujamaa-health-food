@@ -34,6 +34,7 @@ header {
     font-style: normal;
     background: #136c72;
     padding: .5em 0;
+     border-bottom: 4mm ridge rgba(241, 235, 37, 0.9);
 }
 .nav {
     display: flex;
@@ -94,3 +95,7 @@ header {
   'GRAD' 0,
   'opsz' 24
 }
+
+/* .marq{
+    
+} */
