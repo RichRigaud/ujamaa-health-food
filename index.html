@@ -16,19 +16,30 @@
             <img src="./images/Ujamaa Logo grn.png" alt="crl logo" class="logo"> </a>   
         <nav class="nav">
                 <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#" id="active" class="nav__link">About</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Community</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Contact Us</a></li>
                 <div class="search-box">
                 <input class="search-input" type="search" placeholder="Search-in-Store-Products">
                 <span class= "search-icon material-symbols-outlined">search</span>
                 <!-- <button type="submit"><i class="fa fa-search"></i></button> -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
                 </div>
             </ul>
             <ul class="nav__list">
                 <li class="nav__item nav__item--push-right"><a href="#" class="nav__link">Sign In</a></li>
                 <span class="cart-icon material-symbols-outlined">shopping_cart</span>
                 <li class="nav__item"><a href="#" class="nav__link">Cart</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
             </ul>
         </nav>
     </div>
