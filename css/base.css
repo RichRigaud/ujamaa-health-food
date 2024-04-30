@@ -16,7 +16,7 @@ body {
 }
 .container{
     width: 90%;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     /* border:2px solid yellowgreen; */
 }
@@ -24,15 +24,15 @@ body {
 .row{
     display: flex;
     justify-content: space-between;
-}
-   
+} 
+  
 
 .logo{
     height: 5.5rem;   
-    margin-right: 1.2rem;
+    margin-right: 1.5rem;
 }
 
-header {
+.header {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -59,7 +59,7 @@ header {
     font-size: 0.7rem;
 }
 .nav__item--push-right {
-    margin-left: auto;
+    margin-left: 1rem;
 }
 
 .nav__link {
@@ -76,12 +76,12 @@ header {
     align-items: center;
     border: 2px solid #73AD21;
     padding: 20px;
-    width: 500px;
+    width: 485px;
     height: 45px;
 }
 .search-input{
     border: none; 
-    margin-right: 16rem;  
+    margin-right: 14rem;  
     
 }
 .search-icon{
