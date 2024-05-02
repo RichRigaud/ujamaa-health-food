@@ -22,6 +22,7 @@ img {
  
 } 
 .profile {
+    position: relative;
    margin-top: -1.5rem;
    text-align: center;
 } 
@@ -47,6 +48,34 @@ span{
     gap: 5px;
     margin-top: 10px;
     text-align: left;
+}
+/* .star-fruit img{
+    position: absolute;
+    height: 2rem;
+} */
+
+.fruit img{
+    position: absolute;
+    height: 4rem;
+}
+.pineapple img{
+    margin-top: 50px;
+    margin-right: 10rem;
+    height: 4.3rem;
+}
+.banana img{
+    margin-top: 50px;
+    right: 3px;
+    
+}
+.soursop img{
+    top: -12px;
+    right: 9rem;
+    height: 3.2rem;    
+}
+.avocado img{
+    bottom: 12px;
+   
 }
 
 .kitchen{

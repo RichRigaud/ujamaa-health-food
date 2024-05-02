@@ -1,21 +1,16 @@
-/* .header{
-    background-color: rgb(232, 194, 194);
-    display: flex;
-    align-items:baseline;
-    padding: .5rem;
-    gap: 1rem;
 
-} */
 
 .link {
     background: none;
     border: none;
     text-decoration: none;
-    color:#777;
-    font-family: inherit;
+    /* font-family: inherit; */
     font-size: inherit;
     cursor: pointer;
     padding:0;
+    color: #fff;
+    text-transform: uppercase;
+    /* margin-right: 5px; */
 }
 .dropdown.active > .link,
 .link:hover{
