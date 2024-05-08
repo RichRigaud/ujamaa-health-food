@@ -1,6 +1,6 @@
-@import url('./dropcard.css');
-@import url('./ujamaa-card.css');
-@import url('./slider.css');
+@import url('./dropcard.scss');
+@import url('./ujamaa-card.scss');
+@import url('./slider.scss');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -77,7 +77,7 @@ nav {
     border-radius: 25px;
     align-items: center;
     border: 1px solid #73AD21;
-    padding: 20px;
+    padding: 10px;
     width: 350px;
     height: 45px;
     margin: -12px 0 0 10px;
