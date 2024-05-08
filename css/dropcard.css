@@ -14,7 +14,7 @@
 }
 .dropdown.active > .link,
 .link:hover{
-    color:blue;
+    color:rgb(224, 180, 18);
 }
 
 .dropdown{
