@@ -1,43 +1,117 @@
 
-
-.link {
-    background: none;
-    border: none;
-    text-decoration: none;
-    /* font-family: inherit; */
-    font-size: inherit;
-    cursor: pointer;
-    padding:0;
-    color: #fff;
-    text-transform: uppercase;
-    /* margin-right: 5px; */
-}
-.dropdown.active > .link,
-.link:hover{
-    color:rgb(224, 180, 18);
+.dropdown-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right:10%;
+    width: 320px; 
+    padding: 5px 5px;
+    border-radius: .25rem;
+    box-shadow: 0 5px 5px 0 rgba(134, 161, 12, 0.5);  
+    max-height: 0px;
+    overflow:  hidden;
+    transition: max-height 0.5s;   
 }
 
-.dropdown{
-    position: relative;
+ .dropdown-menu-wrap.open-menu {   
+    max-height: 550px;
+}
+.sub-triangle { 
+    position: absolute;
+    top: 12px;
+    right: 0;
+    margin-right: 20px;
+    width: 0;  
+    height: 0;  
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-bottom: 10px solid rgb(119, 222, 119);  
+} 
+
+ .dropdown-menu{
+    margin-top: 20px;
+    background:#fff;
+    color: darkgreen;
+    padding: 20px 10px;
+    border: 1px solid rgba(134, 161, 12, 0.5); 
 }
 
-.dropdown-menu {
-   position: absolute;
-   right: 0;
-   top: calc(100% + .30rem);
-   background-color: rgb(197, 229, 13);
-   padding: .75rem;
-   border-radius: .25rem;
-   box-shadow: 0 3px 5px 0 rgba(134, 161, 12, 0.2);  
-   opacity: 0;
-   pointer-events: none;
-   transform: translateY(-10px);
-   transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+#logo {
+   width: 9rem;
+   margin-top: -1rem;
+   margin-left: 65px; 
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   } 
+   .profile h2{
+    margin-top: -10px;
+   }
+
+ span{
+     color:goldenrod;
+     letter-spacing: .75px;
+ }
+ .address{
+    margin-top: -5px;
+    line-height: 5px;
+ }
+
+ .phone{
+    line-height:45px;
+    font-size: 1rem;
+ 
+ }
+ .store-hours{
+    margin-top: -5px;
+    text-align: left;
+   
+ }
+
+ .two-col{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+.pineapple img{
+    bottom: 10px;
+    
+}
+.banana img{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.soursop img{
+    top: -12px;
+    right: 9rem;
+    height: 3.2rem;    
+}
+.avocado img{
+    top: 12px;
    
 }
 
-.dropdown.active > .link + .dropdown-menu{
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
+.kitchen{
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+
 }
+.sociallink{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

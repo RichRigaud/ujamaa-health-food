@@ -13,43 +13,42 @@
 </head>
 <body>
   <div class="header">
-      <div class = "container row">
-             <a href ="#"> 
-            <img src="../media folder/images/Ujamaa Logo grn.png" alt="crl logo" class="logo"> </a>   
-        <nav>
+     <nav>
+      <img src="../media folder/images/Ujamaa Logo grn.png" alt="crl logo" class="logo"> </a> 
+     <ul class="nav__list">
+           <li><a href="#"> About</a></li>
+           <li><a href="#">Featured</a></li>
+           <li><a href="#">Contact Us</a></li>
+             </ul>
+             <div class="search-box">
+             <input class="search-input" type="search" placeholder="Search-in-Store">
+             <span class= "search-icon material-symbols-outlined">search</span>
+            </div>
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="link">About</a></li>
-                <li class="nav__item"><a href="#" class="link">Community</a></li>
-                <li class="nav__item"><a href="#" class="link">Contact Us</a></li>
-                <div class="search-box">
-                <input class="search-input" type="search" placeholder="Search-in-Store-Products">
-                <span class= "search-icon material-symbols-outlined">search</span>
-              </div>
-           </ul>
-            <ul class="nav__list">
-                <li class="nav__item nav__item--push-right"><a href="#" class= "link">Sign In</a></li>
-                <li class="nav__item"><a href="#" class="link">Cart</a></li>
+               <li><a href="#">Sign In</a></li> 
+               <li><a href="#">Cart</a></li>
                 <span class="cart-icon material-symbols-outlined">shopping_cart</span>
-                <div class="dropdown" data-dropdown>
-                <button class= "link" data-dropdown-button>Community</button>
-                  <div class="dropdown-menu card">
-                      <div class="dropdown-content">
-                          <img src="../media folder/images/organic ujamaa seal grn -02.svg" alt="logo">
-                              <div class="profile">
+                <li><a href="#" onclick="Client.togglemenu()">Commmunity</a></li>
+             </ul>
+         <div class="dropdown-menu-wrap" id="subMenu">
+          <div class="sub-triangle"onclick="Client.togglemenu()" ></div>
+           <div class="dropdown-menu">
+                          <img src="../media folder/images/organic ujamaa seal grn -02.svg" id="logo">
+                            <div class="profile">
                                 <h2>Ujamaa Health Food Store<br/><span> Crown Heights Brooklyn</span></h2><br>
                                 <div class="address">
                                   <h3>406 Utica Ave. Brooklyn, Ny 11213</h3>
                                 </div>
-                                <div class="phone">
+                               <div class="phone">
                                   <h3> (718) 771-8478</h3>
                                  </div>
-                                
-                                 <div class="store-hours">
-                                  Store Opens: 7 days 
-                                  M-F until 11:00 PM
+                               <div class="store-hours">
+                                  <h4>Store Opens: 7 days 
+                                  M-F until 11:00 PM</h4>
                                  </div>
+                            </div>
                                     
-                            <section class="two-col">
+                           <div class="two-col">
                                   <div class="col">
                                      Mon  <br>
                                      Tues <br>
@@ -68,21 +67,22 @@
                                    10:00am -11:00pm <br>
                                    10:00am -11:00pm
                                   </div> 
-                                  <div class="col">
-                                   <div class="avocado fruit">
+                            </div>
+                              
+                            <!-- <div class="avocado">
                                       <img src="../media folder/images/fruits/avocado.png" alt="pear">
                                     </div>
-                                    <div class="banana fruit">
+                                   <div class="banana">
                                       <img src="../media folder/images/fruits/Banana.png" alt="bananas">
-                                    </div>
-                                    <div class="soursop fruit">
+                                   </div>
+                                     <div class="soursop fruit">
                                       <img src="../media folder/images/fruits/soursop.png" alt="soursop">
-                                    </div>
-                                    <div class="pineapple fruit">
+                                    </div> 
+                                    <div class="pineapple">
                                       <img src="../media folder/images/fruits/pineapple.png" alt="pineapple">
-                                    </div>
-                                   </div> 
-                                </div>
+                                    </div> -->
+                            
+
                                 <div class="kitchen">
                                   <h3>Kitchen Opens: 10:30am<br>
                                     Fresh Organic Soup & Patties Daily</h3>
@@ -94,45 +94,17 @@
                              
                             </div>
                             </div>
-                          </div>
-                  </div>
-              </div>
-                  
-            </ul>
+                          
+                  </div>  
         </nav>
     </div>
   </div>
-    <marquee class="marq" SCROLLAMOUNT=20> Welcome to Ujamaa Health Food Store Where Your Health is Wealth </marquee> 
+    <!-- <marquee class="marq" SCROLLAMOUNT=20> Welcome to Ujamaa Health Food Store Where Your Health is Wealth </marquee>  -->
   <!-- </section>
-  <section> <div class="ujam-carousel">
-    <div class="slider-wrapper">
-      <button id="prev-slide" class="slide-button material-symbols-rounded">
-          <span class="material-symbols-outlined">chevron_left</span>
-      </button>
-      <ul class="image-list">
-        <img class="image-item" src="../media folder/images/vegetable-stand/461C604E-02AC-49C6-993F-321928306049.jpg" alt="img-1" />
-        <img class="image-item" src="../media folder/images/vegetable-stand/1E2D3503-1665-4588-BB73-9FAB35AADA58.jpg" alt="img-2" />
-        <img class="image-item" src="../media folder/images/watermelon-pics/462 Watermelon Ujamaa sm.jpg" alt="img-3" />
-        <img class="image-item" src="../media folder/images/watermelon-pics/2D Watermelon Ujamaa sm.jpg" alt="img-4" />
-        <img class="image-item" src="../media folder/images/watermelon-pics/A23 Water Ujamaasm.jpg" alt="img-5" />
-        <img class="image-item" src="../media folder/images/watermelon-pics/CB2Watermelon Ujamaasm.jpg" alt="img-6" />
-       <img class="image-item" src="../media folder/images/vegetable-stand/467FBC38-A4DB-4485-8429-AB58D09BF040.jpg" alt="img-7" />
-       <img class="image-item" src="../media folder/images/vegetable-stand/7BC5EDCC-BE73-490B-B388-8E8F63A182D6.jpg" alt="img-8" />
-      </ul>
-      <button id="next-slide" class="slide-button material-symbols-rounded">
-          <span class="material-symbols-outlined">chevron_right</span>
-              </span>
-     </button>
-    </div>
-    <div class="slider-scrollbar">
-      <div class="scrollbar-track">
-        <div class="scrollbar-thumb"></div>
-      </div>
-    </div>
-  </div></section> -->
+ 
  <script src="/src/client/js/script.js" type="module"></script>
- <!-- <script type="text/javascript" src="/dist/main.js"> -->
-<!-- <script src="/src/client/js/slider.js"></script> -->
+ <script type="text/javascript" src="/dist/main.js"> -->
+
 </body>
 </html>
 
