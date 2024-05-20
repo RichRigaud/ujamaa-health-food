@@ -3,7 +3,7 @@
     position: absolute;
     top: 100%;
     right:10%;
-    width: 320px; 
+    width: 300px; 
     padding: 5px 5px;
     border-radius: .25rem;
     box-shadow: 0 5px 5px 0 rgba(134, 161, 12, 0.5);  
@@ -65,6 +65,7 @@
  
  }
  .store-hours{
+   
     margin-top: -5px;
     text-align: left;
    
@@ -73,29 +74,37 @@
  .two-col{
     display: flex;
     gap: 5px;
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-left: 15px;
     text-align: left;
 }
-
+.avocado img{
+    position: absolute;
+    top: 80px;
+    width: 5.8rem;
+    left: 40px;
+}
 
 .pineapple img{
-    bottom: 10px;
+    position: absolute;
+    bottom: 85px;
+    right: 35px;
     
 }
 .banana img{
     position: absolute;
-    top: 0;
-    right:0;
+    bottom: 95px;
+    right:8px;
 }
 .soursop img{
-    top: -12px;
-    right: 9rem;
-    height: 3.2rem;    
+    position: absolute;
+    top: 90px;
+    right: 2.2
+    rem;
+    height: 3.7rem;  
+    
 }
-.avocado img{
-    top: 12px;
-   
-}
+
 
 .kitchen{
     margin-top: 15px;
